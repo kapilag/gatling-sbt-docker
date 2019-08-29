@@ -1,7 +1,7 @@
 import sbt._
 object Libs {
 
-  val ScalaVersion = "2.11.9"
+  val ScalaVersion = "2.12.9"
 
   object Gatling {
     val VERSION              = "3.2.1"
