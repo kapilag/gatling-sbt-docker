@@ -8,6 +8,7 @@ object HttpBuilder {
 
   def getDefault(): protocol.HttpProtocolBuilder = {
     val httpBuilder = http
+      .inferHtmlResources()//parse html->find embed resources->load asynchronously
       .baseUrl("http://computer-database.gatling.io")
       .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3")
       .acceptEncodingHeader("gzip, deflate")
