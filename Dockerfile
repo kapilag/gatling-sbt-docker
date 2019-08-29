@@ -6,4 +6,3 @@ COPY ./project ./project
 RUN sbt update
 
 COPY . .
-CMD ["sbt", "gatling:test"]
