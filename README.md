@@ -19,4 +19,15 @@ This project uses gatling sbt plugin.
 ## Running on local
 ```sbt gatling:test```
 
+## Developing inside docker container
+
+With VScode support of developing inside container, there is no need to setup local machine with sbt & scala, gatling test cases can be built inside container and also with scala metals we get full IDE support for scala lang.  
+
+1.Simply install docker, vscode
+2.Install "remote development" extension in vscode
+3.Import this project
+
+For detail steps refer vscode documentation : ([here](https://code.visualstudio.com/docs/remote/containers))
+ 
+
 
