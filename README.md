@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/kapilag/gatling-sbt-docker.svg?branch=master)](https://travis-ci.com/kapilag/gatling-sbt-docker)
 # Gatling-sbt-docker
 
 Bootstrap project for running gatling test cases with sbt on docker
