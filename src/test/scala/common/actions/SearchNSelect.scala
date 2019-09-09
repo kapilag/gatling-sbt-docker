@@ -1,7 +1,8 @@
-package actions
+package common.actions
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
+
 object SearchNSelect {
   val search = exec { session =>
     println(s"######Information of session is:${session}#######")

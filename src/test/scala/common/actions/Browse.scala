@@ -1,4 +1,5 @@
-package actions
+package common.actions
+
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 

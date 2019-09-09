@@ -1,12 +1,12 @@
 package simulations
 
-import actions.{Browse, Edit, SearchNSelect}
-import common.{BaseSimulation, HttpBuilder}
+
+import common.HttpBuilder
+import common.actions.{Browse, Edit, SearchNSelect}
 import io.gatling.core.Predef._
-import io.gatling.http.Predef._
 
 
-class ComputerDataBaseSimulation  extends Simulation {
+class ComputerDataBaseSimulation extends Simulation {
 
   val admins = scenario("For admins").exec(SearchNSelect.search,Browse.multiplePage,Edit.edit)
 

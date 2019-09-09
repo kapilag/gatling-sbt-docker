@@ -1,0 +1,27 @@
+{
+  "simulation": "simulations.ComputerDataBaseSimulation",
+  "simulationId": "computerdatabasesimulation",
+  "start": 1568051567182,
+  "description": "",
+  "scenarios": ["For admins"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "mean of response time",
+  "condition": "is less than",
+  "expectedValues": [1500.0],
+  "result": true,
+  "message": "Global: mean of response time is less than 1500.0",
+  "actualValue": [188.0]
+},
+{
+  "path": "Global",
+  "target": "count of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: count of failed events is 0.0",
+  "actualValue": [0.0]
+}
+  ]
+}

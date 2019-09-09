@@ -15,7 +15,7 @@ This project uses gatling sbt plugin.
 ```docker build -t perftest:v1.0 .```
 
 ## Running test case in docker container  
-```docker run -v ./gatling-result:/opt/load-test/target/gatling perftest:v1.0 sbt gatling:test ```
+```docker run -v $(pwd)/gatling-result:/opt/load-test/target/gatling perftest:v1.0 sbt gatling:test ```
 ## Running on local
 ```sbt gatling:test```
 
