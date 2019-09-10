@@ -1,8 +1,0 @@
-<testsuite name="simulations.ComputerDataBaseSimulation" tests="2" errors="0" failures="0" time="0">
-<testcase name="Global: mean of response time is less than 1500.0" status="true" time="0">
-  <system-out>Global: mean of response time is less than 1500.0</system-out>
-</testcase>
-<testcase name="Global: count of failed events is 0.0" status="true" time="0">
-  <system-out>Global: count of failed events is 0.0</system-out>
-</testcase>
-</testsuite>
